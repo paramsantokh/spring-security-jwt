@@ -9,10 +9,10 @@ http://localhost:8080/authenticate
 
 **AuthenticationRequest**:
 
-```{
+{
    "userName": "user",	
    "password": "user"	
-}```
+}
 
 In response jwt-token will be returned. copy this token to use later.
 
