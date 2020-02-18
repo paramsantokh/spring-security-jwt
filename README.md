@@ -13,13 +13,13 @@ AuthenticationRequest:
 	"password": "user"
 }
 
-In reposne jwt token will be returned.
+In response jwt token will be returned.
 
 Do a GET to below url:
 http://localhost:8080/hello
 Below message will be returned:
  "message": "Access Denied",
   
-Now post same request with Authorizatin: Bearer <jwt>
+Now post same request with Authorization: Bearer <jwt> in headers
 http://localhost:8080/hello
 If Hello World!! returned, jwt authenticated the request.
